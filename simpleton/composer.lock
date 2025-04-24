@@ -1,0 +1,366 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0002b1d928c8db9da19abf10e5b8f7bf",
+    "packages": [
+        {
+            "name": "ehsanx64/phplib",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ehsanx64/phplib.git",
+                "reference": "5921e3ff400492642dfd83bce337beee69a5788b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ehsanx64/phplib/zipball/5921e3ff400492642dfd83bce337beee69a5788b",
+                "reference": "5921e3ff400492642dfd83bce337beee69a5788b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ehsanx64\\phplib\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ehsan Mohammadi",
+                    "email": "admin@ehsanm.net",
+                    "homepage": "http://ehsanm.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "General Purpose PHP Library",
+            "homepage": "https://github.com/ehsanx64/phplib",
+            "keywords": [
+                "general",
+                "utility"
+            ],
+            "support": {
+                "issues": "https://github.com/ehsanx64/phplib/issues",
+                "source": "https://github.com/ehsanx64/phplib/tree/master"
+            },
+            "time": "2018-12-27T13:39:43+00:00"
+        },
+        {
+            "name": "phpmailer/phpmailer",
+            "version": "v6.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPMailer/PHPMailer.git",
+                "reference": "a5b5c43e50b7fba655f793ad27303cd74c57363c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/a5b5c43e50b7fba655f793ad27303cd74c57363c",
+                "reference": "a5b5c43e50b7fba655f793ad27303cd74c57363c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "doctrine/annotations": "^1.2",
+                "phpcompatibility/php-compatibility": "^9.3.5",
+                "roave/security-advisories": "dev-latest",
+                "squizlabs/php_codesniffer": "^3.5.6",
+                "yoast/phpunit-polyfills": "^0.2.0"
+            },
+            "suggest": {
+                "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
+                "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
+                "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
+                "psr/log": "For optional PSR-3 debug logging",
+                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPMailer\\PHPMailer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1-only"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Bointon",
+                    "email": "phpmailer@synchromedia.co.uk"
+                },
+                {
+                    "name": "Jim Jagielski",
+                    "email": "jimjag@gmail.com"
+                },
+                {
+                    "name": "Andy Prevost",
+                    "email": "codeworxtech@users.sourceforge.net"
+                },
+                {
+                    "name": "Brent R. Matzelle"
+                }
+            ],
+            "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
+            "support": {
+                "issues": "https://github.com/PHPMailer/PHPMailer/issues",
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Synchro",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-06-16T14:33:43+00:00"
+        },
+        {
+            "name": "sabre/event",
+            "version": "5.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sabre-io/event.git",
+                "reference": "d7da22897125d34d7eddf7977758191c06a74497"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sabre-io/event/zipball/d7da22897125d34d7eddf7977758191c06a74497",
+                "reference": "d7da22897125d34d7eddf7977758191c06a74497",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.17.1",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/coroutine.php",
+                    "lib/Loop/functions.php",
+                    "lib/Promise/functions.php"
+                ],
+                "psr-4": {
+                    "Sabre\\Event\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Evert Pot",
+                    "email": "me@evertpot.com",
+                    "homepage": "http://evertpot.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "sabre/event is a library for lightweight event-based programming",
+            "homepage": "http://sabre.io/event/",
+            "keywords": [
+                "EventEmitter",
+                "async",
+                "coroutine",
+                "eventloop",
+                "events",
+                "hooks",
+                "plugin",
+                "promise",
+                "reactor",
+                "signal"
+            ],
+            "support": {
+                "forum": "https://groups.google.com/group/sabredav-discuss",
+                "issues": "https://github.com/sabre-io/event/issues",
+                "source": "https://github.com/fruux/sabre-event"
+            },
+            "time": "2021-11-04T06:51:17+00:00"
+        },
+        {
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.28.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb",
+                "reference": "ea208ce43cbb04af6867b4fdddb1bdbf84cc28cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-ctype": "*"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.28-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.28.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-01-26T09:26:14+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.6.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141",
+                "reference": "2e93cc98e2e8e869f8d9cfa61bb3a99ba4fc4141",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.9 || ^7.0 || ^8.0",
+                "symfony/polyfill-ctype": "^1.17"
+            },
+            "require-dev": {
+                "ext-filter": "*",
+                "ext-pcre": "*",
+                "phpunit/phpunit": "^4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.21"
+            },
+            "suggest": {
+                "ext-filter": "Required to use the boolean validator.",
+                "ext-pcre": "Required to use most of the library."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "https://github.com/vlucas"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "support": {
+                "issues": "https://github.com/vlucas/phpdotenv/issues",
+                "source": "https://github.com/vlucas/phpdotenv/tree/v2.6.9"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-12-12T22:59:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

@@ -1,0 +1,11 @@
+{
+  "require": {
+    "sabre/event": "^5",
+    "ehsanx64/phplib": "2.0.0",
+    "vlucas/phpdotenv": "^2.5",
+    "phpmailer/phpmailer": "6.5.0"
+  },
+  "scripts": {
+    "serve": "php -S 0.0.0.0:8080 -t ./public"
+  }
+}
