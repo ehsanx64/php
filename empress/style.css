@@ -1,0 +1,471 @@
+/*
+Theme Name: Empress
+Theme URI: https://github.com/ehsanx64/empress
+Author: Ehsan Mohammadi
+Author URI: https://github.com/ehsanx64
+Description: Simple responsive theme for WordPress based on Materialize
+Version: 0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+	background-color: #f3f3f2;
+	font-family: 'Encode Sans';
+}
+
+pre {
+	direction: ltr;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.7rem;
+	font-weight: 600;
+	margin: 5px 0 20px 0;
+}
+
+h3 {
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin: 5px 0 20px 0;
+}
+.card .comment-respond,
+/*.card .comment-form,*/
+.card .card-content,
+.card .card-comments {
+	padding: 20px 20px 10px;
+}
+
+.card-image .post-placeholder {
+}
+
+.card .card-content .card-title {
+	margin-bottom: 10px;
+}
+
+ul.post-categories {
+	padding: 0;
+	margin: 0 0 1em;
+}
+
+ul.post-categories li a {
+	background-color: #dbe433;
+	color: black;
+	padding: 0 8px;
+	font-weight: 600;
+}
+
+.category.mobile-view ul.post-categories {
+	margin: 1em auto;
+}
+
+a {
+	color: #111;
+}
+
+#post-content .post-entry .comment-notes {
+	margin-bottom: 2em;
+}
+
+#post-content .post-entry p {
+	margin: 0 0 1em;
+	line-height: 1.8em;
+}
+
+a:hover {
+	color: #b9b941;
+}
+
+nav {
+	background-color: black;
+}
+
+.main-header {
+	float: left;
+}
+
+#the-navbar .brand-logo {
+	width: 55px;
+	margin: 4px 0 0 0;
+	position: relative;
+	line-height: 100%;
+	float: left;
+}
+
+.navbar-fixed {
+	z-index: 9999;
+}
+
+#the-content {
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+#the-sidebar {
+	padding: 0 0 0 2em;
+	margin-top: 9px;
+}
+
+#the-sidebar > .widget {
+	border-radius: 2px;
+	border: 0;
+	margin-bottom: 2em;
+	background-color: #fff;
+	padding: 1em;
+	webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+/*#the-sidebar > .widget:first-child {*/
+	/*margin-top: 20px;*/
+/*}*/
+
+.sidenav-overlay {
+	z-index: 995;
+}
+
+/* Mobile Menu */
+.button-collapse {
+	margin: 10px 0 0 0 !important;
+	float: right;
+	display: block;
+}
+
+.mobile-button {
+	width: 40px;
+	height: 45px;
+	float: right;
+	position: relative;
+	margin: 0 auto;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+
+.mobile-button span {
+	display: block;
+	position: absolute;
+	height: 5px;
+	width: 100%;
+	background: #fbfae5;
+	border-radius: 2px;
+	opacity: 1;
+	left: 0;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .25s ease-in-out;
+	-moz-transition: .25s ease-in-out;
+	-o-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+.mobile-button span:nth-child(1) {
+	top: 5px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.mobile-button span:nth-child(2) {
+	top: 18px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.mobile-button span:nth-child(3) {
+	top: 31px;
+	-webkit-transform-origin: left center;
+	-moz-transform-origin: left center;
+	-o-transform-origin: left center;
+	transform-origin: left center;
+}
+
+.mobile-button.open span:nth-child(1) {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	top: 3px;
+	left: 6px;
+}
+
+.mobile-button.open span:nth-child(2) {
+	width: 0%;
+	opacity: 0;
+}
+
+.mobile-button.open span:nth-child(3) {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	top: 32px;
+	left: 6px;
+}
+
+#the-mobile-sidebar {
+	position: fixed;
+	right: 0;
+	left: auto;
+	width: 300px;
+	z-index: 997;
+	overflow: hidden;
+	top: 50px;
+	bottom: -15px;
+	overflow-y: scroll;
+	padding: 2em 1em;
+	background-color: #f9f9f9;
+	transform: translateX(100%);
+}
+
+#the-mobile-sidebar > .widget {
+	border-radius: 2px;
+	border: 0;
+	margin-bottom: 2em;
+	background-color: #fff;
+	padding: 1em;
+}
+
+/* Footer */
+#the-footer {
+	background-color: black;
+	padding-top: 0;
+}
+
+#the-footer .footer-copyright {
+	text-align: center;
+}
+
+#post-content .col,
+#post-list .col {
+	padding: 0 0 1em 0;
+}
+/* Media Queries */
+@media all and (max-width: 992px) {
+	#the-navbar .site-title {
+		right: 110px;
+	}
+
+	#the-navbar .site-description {
+		right: 110px;
+	}
+
+	#post-list.col {
+		/*padding: 0 0.5em !important;*/
+	}
+}
+
+@media screen and (min-width: 993px) {
+	#the-sidebar .navigation-widget {
+		display: none;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.main-header {
+		float: left;
+		/*margin-left: 1em;*/
+	}
+
+	#the-navbar .brand-logo {
+		width: 50px;
+		margin-top: 3px;
+		right: 0px;
+	}
+
+	#the-navbar .brand-logo img {
+		max-width: 90%;
+	}
+
+	#the-navbar .site-title {
+		top: -10px;
+	}
+
+	#the-content {
+		width: 100%;
+		margin-top: 1em;
+	}
+
+	#the-navbar .nav-wrapper .button-collapse {
+		/*margin: 8px 1em 0 0 !important;*/
+	}
+
+	#post-list.col,
+	#post-content.col {
+		padding: 0 7% !important;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	nav a.button-collapse {
+		display: none;
+	}
+
+	#the-content,
+	#the-navbar .container {
+		width: 83%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	#post-list article.post-entry .card-image,
+	#post-list article.post-entry .card-text {
+		width: 100% !important;
+		float: none !important;
+	}
+
+	.category.mobile-view ul.post-categories {
+		display: none !important;
+	}
+}
+
+/*@media all and (min-width: 100px) and (max-width: 500px) and (orientation:portrait) {*/
+	/*.category.mobile-view ul.post-categories {*/
+		/*display: none !important;*/
+	/*}*/
+/*}*/
+
+.site-sidebar ul, .site-sidebar ul.collection {
+	margin-bottom: 0;
+}
+#post-list article.post-entry .card-image {
+	width: 35%;
+	float: left;
+}
+
+article.post-entry .card-image .post-image {
+	background-size: 100%;
+	height: 400px;
+	background-position: center;
+}
+
+#post-list article.post-entry .card-text {
+	width: 65%;
+	float: left;
+}
+
+article.post-entry .category {
+	float: left;
+	position: absolute;
+	top: 1em;
+	left: 0;
+}
+
+article.post-entry .post-stats {
+	float: right;
+}
+
+.delay-100ms {
+	animation-delay: 100ms;
+}
+.delay-200ms {
+	animation-delay: 200ms;
+}
+.delay-300ms {
+	animation-delay: 300ms;
+}
+.delay-400ms {
+	animation-delay: 400ms;
+}
+.delay-500ms {
+	animation-delay: 500ms;
+}
+.delay-700ms {
+	animation-delay: 700ms;
+}
+.delay-850ms {
+	animation-delay: 850ms;
+}
+
+aside.widget ul li.lang-item {
+	line-height: 3em;
+}
+
+aside.widget ul li a {
+	display: block;
+}
+
+ul.post-toc {
+	padding-left: 40px;
+}
+ul.post-toc li {
+	list-style-type: disc;
+}
+html {
+	font-size: 0.85rem;
+}
+
+.card .card-image img {
+	height: auto;
+}
+
+.back-to-top-wrapper {
+	position: fixed;
+	bottom: 4%;
+	right: 6%;
+	z-index: 999;
+}
+
+.snipp {
+	direction: ltr;
+	display: inline-block;
+	font-weight: 600;
+	font-family: monospace;
+	font-size: 0.9em;
+	background: rgba(0,0,0,0.05);
+	padding: 0 6px;
+}
+
+.crayon-syntax .crayon-num {
+	padding: 4px 4px;
+}
+
+.crayon-syntax .crayon-line {
+	padding: 4px 6px;
+}
+
+.post-entry .post-comments .comment-author > .avatar {
+	min-width: 85px;
+	position: absolute;
+	left: 10px;
+	right: auto;
+}
+
+.post-entry .post-comments .comment-author > .avatar img {
+	margin: 0 auto;
+	display: block;
+}
+
+.post-entry .post-comments .comment-author .name {
+	margin-top: 1rem;
+	font-weight: 700;
+}
+.post-entry .post-comments .comment-author .date {
+	font-size: 90%;
+}
+.post-entry .post-comments li.comment {
+	padding: 1rem 0 1rem 80px;
+	border-bottom: 1px solid #E9EAEA;
+	margin-bottom: 1rem;
+}

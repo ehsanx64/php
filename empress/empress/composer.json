@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ehsanx64/phplib": "~2.0.0"
+    }
+}

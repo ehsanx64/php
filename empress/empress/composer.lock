@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "11c4fd4c1f62dc13fe1828c75afe98b1",
+    "packages": [
+        {
+            "name": "ehsanx64/phplib",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ehsanx64/phplib.git",
+                "reference": "87b53065bc59614f49640865282c2d75fc96a2da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ehsanx64/phplib/zipball/87b53065bc59614f49640865282c2d75fc96a2da",
+                "reference": "87b53065bc59614f49640865282c2d75fc96a2da",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ehsanx64\\phplib\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ehsan Mohammadi",
+                    "email": "admin@ehsanm.net",
+                    "homepage": "http://ehsanm.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "General Purpose PHP Library",
+            "homepage": "https://github.com/ehsanx64/phplib",
+            "keywords": [
+                "general",
+                "utility"
+            ],
+            "time": "2019-01-13T14:29:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,0 +1,253 @@
+body {
+	font-family: Vazir;
+	font-size: 17px;
+}
+
+.main-header {
+	float: right;
+	margin-right: 0;
+}
+
+.button-collapse {
+	float: left;
+	display: block;
+}
+
+
+
+.card .card-image .card-title {
+	right: 0;
+	left: auto;
+}
+
+nav ul li {
+	float: right;
+}
+
+.breadcrumb:before {
+	content: '\E5CB';
+}
+.input-field label:not(.label-icon).active {
+	transform: translateX(19%) translateY(-10px) scale(0.8);
+
+}
+/*.input-field label {*/
+/*left: auto;*/
+/*}*/
+.input-field .material-icons {
+	line-height: 45px;
+	text-align: center;
+}
+
+.input-field .prefix ~ label {
+	margin-left: 0;
+}
+
+[type="checkbox"] + label:before,
+[type="checkbox"]:not(.filled-in) + label:after {
+	right: 10px;
+	left: auto;
+}
+
+form p {
+	text-align: right;
+}
+
+[type="checkbox"] + label {
+	padding-left: 0;
+	padding-right: 35px;
+}
+
+.input-field .prefix ~ input, .input-field .prefix ~ textarea, .input-field .prefix ~ label, .input-field .prefix ~ .validate ~ label, .input-field .prefix ~ .autocomplete-content {
+	margin-right: 3rem;
+	margin-left: 0;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.card-comments .post-comments ul.comments.comment-list {
+	padding-right: 0;
+}
+.card-comments .post-comments ul.comments.comment-list li.comment {
+	clear: both;
+}
+.card-comments .post-comments ul.comments.comment-list li.comment ul.children {
+	padding-right: 85px;
+}
+.card-comments .post-comments ul.comments.comment-list .comment-avatar {
+	float: right;
+	margin: 0 0 0 1em;
+	width: 70px;
+}
+.card-comments .post-comments ul.comments.comment-list .comment-body.comment-info {
+	float: right;
+	width: 80%;
+}
+.card-comments .post-comments ul.comments.comment-list .comment-body .user-name b {
+	font-size: 120%;
+	padding: 0.5em 0;
+	display: block;
+}
+.card-comments .post-comments ul.comments.comment-list .comment-body .comment-content {
+	clear: both;
+}
+.card-comments .post-comments ul.comments.comment-list .comment-body .comment-reply {
+	margin-bottom: 5em;
+}
+
+#post-list article.post-entry .card-image,
+#post-list article.post-entry .card-text {
+	float: right;
+}
+
+article.post-entry .category {
+	float: right;
+	position: absolute;
+	top: 1em;
+	right: 0;
+}
+
+article.post-entry .post-stats {
+	float: left;
+}
+
+
+@media all and (max-width: 600px) {
+	.main-header {
+		margin-right: -28px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#the-mobile-sidebar {
+	position: fixed;
+	left: 0;
+	right: auto;
+    width: 300px;
+    z-index: 997;
+	overflow: hidden;
+	top: 50px;
+    bottom: -15px;
+    overflow-y: scroll;
+    padding: 2em 1em;
+	transform: translateX(-100%);
+}
+
+.navbar-fixed {
+	z-index: 9999;
+}
+
+#sidenav-overlay {
+	z-index: 995;
+}
+
+.site-sidebar ul,
+.site-sidebar ul.collection {
+	padding-right: 0;
+}
+
+ul.collection .collection-item a {
+	display: block;
+}
+
+span.badge {
+	float: left;
+	margin-left: 0;
+}
+
+.back-to-top-wrapper {
+	position: fixed;
+	bottom: 4%;
+	left: 6%;
+	right: auto;
+	z-index: 999;
+}
+
+#the-navbar .brand-logo {
+    width: 55px;
+    position: relative;
+    line-height: 100%;
+    float: right;
+}
+
+.post-entry .post-info .the-author {
+	float: right;
+}
+
+.post-entry .post-info .the-date {
+	float: left;
+}
+
+.post-entry .comment-form .comment-notes {
+	text-align: right;
+	margin-bottom: 40px;
+}
+
+#post-content,
+#post-list {
+	float: right;
+}
+
+#the-sidebar {
+	padding: 0 2em 0 0;
+}
+
+.post-entry .post-comments .comment-author > .avatar {
+	right: 10px;
+	left: auto;
+}
+
+
+.post-entry .post-comments .comment-author .name {
+	margin-top: 1rem;
+	font-weight: 700;
+}
+.post-entry .post-comments .comment-author .date {
+	font-size: 90%;
+}
+.post-entry .post-comments .comment-list {
+	margin: 0;
+	padding: 0;
+}
+.post-entry .post-comments li.comment {
+	padding: 1rem 80px 1rem 0;
+}

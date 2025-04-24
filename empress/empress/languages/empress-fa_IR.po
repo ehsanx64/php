@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: empress\n"
+"POT-Creation-Date: 2018-06-22 17:07+0430\n"
+"PO-Revision-Date: 2018-06-22 17:19+0430\n"
+"Last-Translator: Ehsan Mohammadi\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /var/www/html/ehsanm/wp-content/themes/empress-bcard\n"
+
+#: 404.php:11
+msgid "404"
+msgstr ""
+
+#: 404.php:14
+msgid "Sorry! the page your are looking for doesn't exist."
+msgstr ""
+
+#: 404.php:20
+msgid "GO TO THE HOMEPAGE"
+msgstr ""
+
+#: comments.php:10
+msgid "Comments"
+msgstr "دیدگاه‌ها"
+
+#: comments.php:12
+msgid "Post comment"
+msgstr "ارسال دیدگاه"
+
+#: empress/Comment/CommentWalker.php:235
+#: empress/Comment/CommentWalkerMaterialize.php:235
+msgid "Pingback:"
+msgstr ""
+
+#: empress/Comment/CommentWalker.php:235 empress/Comment/CommentWalker.php:371
+#: empress/Comment/CommentWalkerMaterialize.php:235
+#: empress/Comment/CommentWalkerMaterialize.php:375
+msgid "Edit"
+msgstr "ویرایش"
+
+#: empress/Comment/CommentWalker.php:272
+#: empress/Comment/CommentWalkerMaterialize.php:274
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: empress/Comment/CommentWalker.php:277
+#: empress/Comment/CommentWalkerMaterialize.php:279
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار بررسی است."
+
+#. translators: 1: comment date, 2: comment time
+#: empress/Comment/CommentWalker.php:285
+#: empress/Comment/CommentWalkerMaterialize.php:287
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: empress/Comment/CommentWalker.php:285
+#: empress/Comment/CommentWalkerMaterialize.php:287
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: empress/Comment/CommentWalker.php:353
+#: empress/Comment/CommentWalkerMaterialize.php:357
+msgid "Your comment is not approved yet"
+msgstr "این دیدگاه هنوز تأیید نشده است"
+
+#: empress/Theme/Comment.php:57
+msgid "Enter your name"
+msgstr "دیدگاه خود را وارد کنید"
+
+#: empress/Theme/Comment.php:58
+msgid "Enter your email"
+msgstr "دیدگاه خود را وارد کنید"
+
+#: empress/Theme/Comment.php:59
+msgid "Enter your website"
+msgstr "لطفا آدرس وب‌سایت خود را وارد کنید"
+
+#: empress/Theme/Comment.php:71
+msgid "Your name"
+msgstr "نام شما"
+
+#: empress/Theme/Comment.php:72
+msgid "Your Email"
+msgstr "ایمیل شما"
+
+#: empress/Theme/Comment.php:73
+msgid "Your Website"
+msgstr "وب‌سایت شما"
+
+#: empress/Theme/Comment.php:79 empress/Theme/Comment.php:98
+msgid "Leave a Comment"
+msgstr "دیدگاه‌ها"
+
+#: empress/Theme/Comment.php:89
+msgid "Enter your comment"
+msgstr "دیدگاه خود را وارد کنید"
+
+#: empress/Theme/Comment.php:109
+msgid "Your comment"
+msgstr "دیدگاه شما"
+
+#: empress/Theme/Config.php:29
+msgid "Main navigation menu"
+msgstr "منوی راهبری اصلی"
+
+#: empress/Theme/Widget.php:9
+msgid "Main Widget Area"
+msgstr "ناحیه ابزارک اصلی"
+
+#: empress/Widgets/BlogSearch.php:12 empress/Widgets/BlogSearch.php:31
+msgid "Search"
+msgstr "جستجو"
+
+#: empress/Widgets/BlogSearch.php:18
+msgid "Keywords to search..."
+msgstr "کلمات کلیدی برای جستجو ..."
+
+#: empress/Widgets/BlogSearch.php:34 empress/Widgets/CategoryList.php:72
+#: empress/Widgets/RecentPosts.php:40 empress/Widgets/TagList.php:40
+msgid "Title"
+msgstr "عنوان"
+
+#: empress/Widgets/CategoryList.php:29 empress/Widgets/CategoryList.php:69
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+#: empress/Widgets/CategoryList.php:53
+msgid "Post"
+msgstr ""
+
+#: empress/Widgets/RecentPosts.php:17 empress/Widgets/RecentPosts.php:37
+msgid "Recent Posts"
+msgstr "آخرین نوشته‌ها"
+
+#: empress/Widgets/TagList.php:18 empress/Widgets/TagList.php:37
+#: includes/helper_template.php:6
+msgid "Tags"
+msgstr "برچسب‌‌ها"
+
+#: footer.php:36
+msgid "&copy; 2017. Ehsan Mohammadi"
+msgstr "۱۳۹۶ &copy; احسان محمدی"
+
+#: includes/helper_template.php:17
+msgid "None"
+msgstr "ندارد"
+
+#: parts/blog-single.php:30 parts/blog.php:30
+msgid "Writer"
+msgstr "نویسنده"
+
+#: parts/blog-single.php:33 parts/blog.php:33
+msgid "Date"
+msgstr "تاریخ"
+
+#: parts/blog.php:44 parts/page.php:34
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+#: searchform.php:4
+msgid "SEARCH"
+msgstr "جستجو"
+
+#~ msgid "&copy; 2017. Ehsan Mohammadi. All rights reserved."
+#~ msgstr "۱۳۹۶ &copy; تمامی حقوق برای احسان محمدی محفوظ می‌باشد. "
+
+#~ msgid "Written by %s in %s"
+#~ msgstr "نوشته‌ی %s در %s"
+
+#~ msgid "New title"
+#~ msgstr "عنوان جدید"
+
+#~ msgid "Your reply"
+#~ msgstr "دیدگاه شما"
+
+#~ msgid "Author"
+#~ msgstr "نویسنده"
+
+#~ msgid "Last Update"
+#~ msgstr "آخرین بروزرسانی"
+
+#~ msgid "News"
+#~ msgstr "اخبار"
+
+#~ msgid "Please enter your name"
+#~ msgstr "لطفا نام خود را وارد کنید"
+
+#~ msgid "Please enter your email address"
+#~ msgstr "لطفا آدرس ایمیل خود را وارد کنید"

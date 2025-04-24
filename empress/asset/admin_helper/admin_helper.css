@@ -1,0 +1,22 @@
+/* General dashboard styling improvements */
+pre, code,
+.wp-block-code .editor-plain-text {
+	direction: ltr;
+}
+
+/* These rules are for improving the persian dashboard */
+#wpcontent #wp-toolbar .menupop a, #wpcontent #wp-toolbar .menupop a .ab-label,
+.rtl #wpadminbar *,
+body.rtl, body.rtl .press-this a.wp-switch-editor,
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6,
+.editor-styles-wrapper {
+	font-family: Gandom !important;
+}
+
+.edit-post-text-editor .editor-post-text-editor {
+	font-family: 'Vazir Code';
+	font-size: 16px;
+	font-weight: 600;
+}
+
+

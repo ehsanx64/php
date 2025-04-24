@@ -1,0 +1,185 @@
+/** Vazir **/
+@font-face {
+    font-family: Vazir;
+	src: url('font/Vazir/Vazir.eot');
+	src: url('font/Vazir/Vazir.eot?#iefix') format('embedded-opentype'),
+		url('font/Vazir/Vazir.woff') format('woff'),
+		url('font/Vazir/Vazir.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Vazir;
+	src: url('font/Vazir/Vazir-Bold.eot');
+	src: url('font/Vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+		url('font/Vazir/Vazir-Bold.woff') format('woff'),
+		url('font/Vazir/Vazir-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Vazir;
+	src: url('font/Vazir/Vazir-Light.eot');
+	src: url('font/Vazir/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+		url('font/Vazir/Vazir-Light.woff') format('woff'),
+		url('font/Vazir/Vazir-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+
+/** Vazir Code **/
+@font-face {
+	font-family: Vazir Code;
+	src: url('font/Vazir-Code/Vazir-Code.eot');
+	src: url('font/Vazir-Code/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+	url('font/Vazir-Code/Vazir-Code.woff') format('woff'),
+	url('font/Vazir-Code/Vazir-Code.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Vazir Code Hack;
+	src: url('font/Vazir-Code/Vazir-Code-Hack.eot');
+	src: url('font/Vazir-Code/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+	url('font/Vazir-Code/Vazir-Code-Hack.woff') format('woff'),
+	url('font/Vazir-Code/Vazir-Code-Hack.ttf') format('truetype');
+	font-weight: normal;
+}
+
+/** Gandom **/
+@font-face {
+	font-family: Gandom;
+	src: url('font/Gandom/Gandom.eot');
+	src: url('font/Gandom/Gandom.eot?#iefix') format('embedded-opentype'),
+	url('font/Gandom/Gandom.woff') format('woff'),
+	url('font/Gandom/Gandom.ttf') format('truetype');
+	font-weight: normal;
+}
+
+/** Harir **/
+@font-face {
+	font-family: Harir;
+	src: url('font/Harir/Harir.ttf') format('truetype');
+	font-weight: normal;
+}
+
+/** Nahid **/
+@font-face {
+	font-family: Nahid;
+	src: url('font/Nahid/Nahid.eot');
+	src: url('font/Nahid/Nahid.eot?#iefix') format('embedded-opentype'),
+	url('font/Nahid/Nahid.woff') format('woff'),
+	url('font/Nahid/Nahid.ttf') format('truetype');
+	font-weight: normal;
+}
+
+/** Parastoo **/
+@font-face {
+	font-family: Parastoo;
+	src: url('font/Parastoo/web/Parastoo.eot');
+	src: url('font/Parastoo/web/Parastoo.eot?#iefix') format('embedded-opentype'),
+	url('font/Parastoo/web/Parastoo.woff') format('woff'),
+	url('font/Parastoo/web/Parastoo.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Parastoo;
+	src: url('font/Parastoo/web/Parastoo-Bold.eot');
+	src: url('font/Parastoo/web/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/Parastoo/web/Parastoo-Bold.woff') format('woff'),
+	url('font/Parastoo/web/Parastoo-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+/** Sahel **/
+@font-face {
+	font-family: Sahel;
+	src: url('font/Sahel/Sahel.eot');
+	src: url('font/Sahel/Sahel.eot?#iefix') format('embedded-opentype'),
+	url('font/Sahel/Sahel.woff') format('woff'),
+	url('font/Sahel/Sahel.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Sahel;
+	src: url('font/Sahel/Sahel-Bold.eot');
+	src: url('font/Sahel/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/Sahel/Sahel-Bold.woff') format('woff'),
+	url('font/Sahel/Sahel-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Sahel;
+	src: url('font/Sahel/Sahel-Black.eot');
+	src: url('font/Sahel/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+	url('font/Sahel/Sahel-Black.woff') format('woff'),
+	url('font/Sahel/Sahel-Black.ttf') format('truetype');
+	font-weight: 900;
+}
+
+/** Samim **/
+@font-face {
+	font-family: Samim;
+	src: url('font/Samim/Samim.eot');
+	src: url('font/Samim/Samim.eot?#iefix') format('embedded-opentype'),
+	url('font/Samim/Samim.woff') format('woff'),
+	url('font/Samim/Samim.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Samim;
+	src: url('font/Samim/Samim-Bold.eot');
+	src: url('font/Samim/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/Samim/Samim-Bold.woff') format('woff'),
+	url('font/Samim/Samim-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+/** Shabnam **/
+@font-face {
+	font-family: Shabnam;
+	src: url('font/Shabnam/Shabnam.eot');
+	src: url('font/Shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+	url('font/Shabnam/Shabnam.woff') format('woff'),
+	url('font/Shabnam/Shabnam.ttf') format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: Shabnam;
+	src: url('font/Shabnam/Shabnam-Bold.eot');
+	src: url('font/Shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+	url('font/Shabnam/Shabnam-Bold.woff') format('woff'),
+	url('font/Shabnam/Shabnam-Bold.ttf') format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Shabnam;
+	src: url('font/Shabnam/Shabnam-Light.eot');
+	src: url('font/Shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+	url('font/Shabnam/Shabnam-Light.woff') format('woff'),
+	url('font/Shabnam/Shabnam-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+
+/** Tanha **/
+@font-face {
+	font-family: Tanha;
+	src: url('font/Tanha/Tanha.eot');
+	src: url('font/Tanha/Tanha.eot?#iefix') format('embedded-opentype'),
+	url('font/Tanha/Tanha.woff') format('woff'),
+	url('font/Tanha/Tanha.ttf') format('truetype');
+	font-weight: normal;
+}
+
+/** IranianSans **/
+@font-face {
+	font-family: IranianSans;
+	src: url('font/AIranianSans.ttf') format('truetype');
+	font-weight: normal;
+}
+
