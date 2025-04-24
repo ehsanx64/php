@@ -1,0 +1,27 @@
+{
+    "name": "ehsanx64/phplib",
+    "type": "library",
+    "description": "General Purpose PHP Library",
+    "keywords": ["general","utility"],
+    "homepage": "https://github.com/ehsanx64/phplib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ehsan Mohammadi",
+            "email": "admin@ehsanm.net",
+            "homepage": "http://ehsanm.net",
+            "role": "Developer"
+        }
+    ],
+    
+    "minimum-stability": "stable",
+  
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ehsanx64\\phplib\\": ""
+        }
+    }
+}
