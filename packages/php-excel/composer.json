@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "run": "php index.php"
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.23"
+    }
+}

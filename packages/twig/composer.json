@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "main": "rm -fr ./storage/* && php src/main.php"
+    },
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
