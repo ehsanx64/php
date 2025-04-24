@@ -1,0 +1,5 @@
+After evaluating the subexpressions in parentheses
+1 + (6) - (20)
+2 - (60) + 1
+5 + 2 - 4 + (4)
+
