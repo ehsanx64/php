@@ -7,5 +7,11 @@ Using PHP on command line interface
 As simple as follows:
 
 ```bash
-php say-hello.php
+php greet.php
+```
+
+Or in a scriptable fashion:
+
+```bash
+chmod +x greet.php
 ```

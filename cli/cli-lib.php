@@ -5,7 +5,7 @@
  * @param string $text String to output to console
  * @param bool|true $nl If it is true method will append a newline to string
  */
-function out($text = '', $nl = true) {
+function output($text = '', $nl = true) {
     fwrite(STDOUT, $text . ($nl ? "\n" : null));
 }
 
@@ -14,6 +14,10 @@ function out($text = '', $nl = true) {
  *
  * @return string The user input string with newline character removed
  */
-function in() {
+function input($prompt = '') {
+    if (!empty($prompt)) {
+        output($prompt, false);
+    }
+
     return rtrim(fread(STDIN, 8192), "\n");
 }
